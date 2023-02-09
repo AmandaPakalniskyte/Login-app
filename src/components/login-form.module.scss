@@ -1,0 +1,39 @@
+@import "src/styles/variables/colors";
+@import "src/styles/variables/typography";
+@import "src/styles/variables/sizes";
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+  color: $lightText;
+
+  span {
+    font-weight: $font-light;
+  }
+}
+
+input {
+  border-radius: $input-radius;
+  border: 1px solid $light;
+  background: transparent;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  height: 50px;
+  width: 100%;
+  color: $light;
+  font-family: $font-family-main;
+  font-weight: $font-bold;
+  padding: 0px 10px;
+  position: relative;
+  font-size: 18px;
+}
+
+::placeholder {
+  color: $lightText;
+  opacity: 1;
+  font-weight: $font-light;
+}

@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "email": "frontend@isawesome.com",
+      "password": "cool",
+      "id": 1
+    },
+    {
+      "email": "user@email.com",
+      "password": "labas",
+      "id": 2
+    }
+  ]
+}

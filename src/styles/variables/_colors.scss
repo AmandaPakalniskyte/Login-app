@@ -1,12 +1,7 @@
 $darken-percentage: 5;
 $lighten-percentage: 5;
-
-$primary: #ff7b00;
-$primary-lighten: lighten($primary, $lighten-percentage);
-$primary-darken: darken($primary, $darken-percentage);
-
-$secondary: #252525;
-$secondary-lighten: lighten($secondary, $lighten-percentage);
-$secondary-darken: darken($secondary, $darken-percentage);
-
+$primary: #00ff29;
+$secondary: #1f41a9;
+$light: #fafafa;
+$lightText: #fafafa;
 $page-bg: #fafafa;

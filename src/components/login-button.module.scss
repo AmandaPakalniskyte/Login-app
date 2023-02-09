@@ -1,0 +1,26 @@
+@import "src/styles/variables/colors";
+@import "src/styles/variables/typography";
+@import "src/styles/variables/sizes";
+
+.btn {
+  width: 100%;
+  height: 50px;
+  border-radius: $button-radius;
+  border: 2px solid $primary;
+  background: $primary;
+  margin-top: 53px;
+  color: $light;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: $font-family-main;
+
+  &:hover {
+    background-color: $primary;
+    color: $light;
+  }
+
+  &:disabled {
+    background-color: $secondary;
+    color: $primary;
+  }
+}

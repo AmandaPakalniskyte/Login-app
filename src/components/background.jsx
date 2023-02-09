@@ -1,15 +1,21 @@
-import React from 'react';
-import classes from './background.module.scss';
+import React from "react";
 
-const Background = ({children}) => {
+const Background = ({ children }) => {
   return (
-    
-          <div style={{ backgroundImage: "url(/images/bg.jpg)", display:"flex", justifyContent:"center", alignItems:"center", height:"100vh", backgroundRepeat:"no-repeat", backgroundSize:"cover" }}>
-          {children}
-          </div>
-        
-  )
-}
+    <div
+      style={{
+        backgroundImage: "url(/images/bg.jpg)",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
+      {children}
+    </div>
+  );
+};
 
 export default Background;
-
